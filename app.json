@@ -10,7 +10,7 @@
 
     "ProxySite": {
       "description": "反代一个网站，例如：mirror.umd.edu，如填写 www 则表示使用本地静态网页文件。",
-      "value": "mirror.umd.edu"
+      "value": "www"
     },
 
     "UUID": {
