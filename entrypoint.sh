@@ -50,7 +50,7 @@ sed -e "/^#/d"\
 echo /xraybin/config.json
 cat /xraybin/config.json
 
-if [[ -z "${ProxySite}" ]]; then
+if [ "$ProxySite" = "www" ]; then
   s="s/proxy_pass/#proxy_pass/g"
   echo "site:use local wwwroot html"
 else
